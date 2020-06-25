@@ -6,7 +6,6 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
@@ -64,8 +63,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "yarn lint:fix",
-      "yarn test --findRelatedTests"
+      "yarn lint:fix"
     ]
   },
   "config": {
